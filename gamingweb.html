@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Top 5 Fun games</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+    .container {
+        display: grid;
+        height: 100vh;
+        grid-template-rows: 310px 75px auto 50px;
+    }
+    
+    .header {
+        background-image: url('https://wallpaperaccess.com/full/3463528.jpg');
+        background-size: cover;
+        background-position: 5% 30%;
+    }
+    
+    .Quote {
+        background-color: cyan;
+    }
+    
+    .Gallery {
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .Footer {
+        background-color: blue;
+        animation-name: colorshow;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    
+    .header h1 {
+        font-family: 'Bungee shade', cursive;
+        color: white;
+    }
+    
+    .Quote p {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .image img {
+        width: 300px;
+        height: 200px;
+        padding-top: 10px;
+    }
+    
+    .Footer h4 {
+        text-align: center;
+        color: white
+    }
+    
+    .image {
+        transition: transform 2s ease 0.5s;
+    }
+    
+    .image:hover {
+        transform: rotate(25deg) scale(0.5);
+    }
+    
+    @keyframes colorshow {
+        0% {
+            background-color: turquoise;
+        }
+        25% {
+            background-color: lightcyan;
+        }
+        35% {
+            background-color: yellow;
+        }
+        50% {
+            background-color: green;
+        }
+        70% {
+            background-color: blue;
+        }
+        100% {
+            background-color: red;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Top 5 Funnest Games</h1>
+        </div>
+        <div class="Quote">
+            <p> “The right man in the wrong place can make all the difference in the world.” – Half-Life 2</p>
+        </div>
+        <div class="Gallery">
+            <div class="image 1">
+                <a href="https://www.roblox.com/account/signupredir?returnUrl=https%3A%2F%2Fwww.roblox.com%2FLogin" target="_blank">
+                    <img src="https://i0.wp.com/a16z.com/wp-content/uploads/2020/02/Roblox-FeatureImage-Desktop.jpg?fit=600%2C440&ssl=1" alt="">
+                </a>
+            </div>
+            <div class="image 2">
+                <a href="https://www.epicgames.com/fortnite/en-US/home" target="_blank">
+                    <img src="https://i.insider.com/5be1e8a8f556fc396f25544a?width=800&format=jpeg" alt="">
+                </a>
+            </div>
+            <div class="image 3">
+                <a href="https://www.bluestacks.com/apps/action/among-us-on-pc.html" target="_blank">
+                    <img src="https://o.aolcdn.com/images/dims?resize=1200%2C630&crop=1200%2C630%2C0%2C0&quality=95&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-09%2Fc4762280-fdf6-11ea-adf9-0404b447f580&client=amp-blogside-v2&signature=6f3e3b5573d97de9c0e68b1996118a2323c2db30"
+                        alt=""></a>
+            </div>
+            <div class="image 4">
+                <a href="https://www.minecraft.net/en-us/" target="_blank">
+                    <img src="http://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_Minecraft_image1280w.jpg" alt="">
+                </a>
+            </div>
+
+        </div>
+        <div class="Footer">
+            <h4>Designed by: Harsh</h4>
+        </div>
+    </div>
+
+</body>
+
+</html>
